@@ -1,5 +1,7 @@
 <form #registerForm="ngForm" (ngSubmit)="register()" autocomplete="off">
-  <h2 class="text-center">Register<i class="fa fa-sign-in" aria-hidden="true"></i></h2>
+  <h2 class="text-center">
+    Register<i class="fa fa-sign-in" aria-hidden="true"></i>
+  </h2>
   <hr />
   <div class="form-group">
     <input
@@ -10,6 +12,7 @@
       placeholder="Username"
     />
   </div>
+
   <div class="form-group">
     <input
       type="password"
@@ -20,7 +23,9 @@
     />
   </div>
   <div class="form-group text-center">
-    <button class="btn btn-success mr-2" type="submit" >Register</button>
-    <button class="btn btn-default mr-2" (click)="cancel()" type="button" >Cancel</button>
+    <button class="btn btn-success mr-2" type="submit">Register</button>
+    <button class="btn btn-default mr-2" (click)="cancel()" type="button">
+      Cancel
+    </button>
   </div>
 </form>
